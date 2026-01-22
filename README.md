@@ -1,7 +1,7 @@
 
 This contains everything you need to run your app locally.
 
-## 🚀 Live Demo
+## Live Demo
 
 **Deployed on Railway:** [https://pbwjuice-production.up.railway.app/](https://pbw-juice-prod.up.railway.app)
 
@@ -16,3 +16,4 @@ This contains everything you need to run your app locally.
 3. Run the app:
    `npm run dev`
 "# pbw_juice"
+I think it'll work (heavy on the word i think)
