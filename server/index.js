@@ -108,7 +108,7 @@ app.get('/api/test-db', async (req, res) => {
 });
 
 // SPA catch-all route - serve index.html for all non-API routes
-app.get('*', (req, res) => {
+app.get('/*', (req, res) => {
     res.sendFile(join(__dirname, '../dist/index.html'));
 });
 
