@@ -39,8 +39,8 @@ export const Hero: React.FC = () => {
           <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[300px] h-[300px] bg-green-400 rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-blob animation-delay-2000 ml-20"></div>
 
           <img
-            src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&h=800&fit=crop"
-            alt="Mountains"
+            src="https://images.unsplash.com/photo-1600271886742-f049cd451bba?w=800&h=800&fit=crop"
+            alt="Fresh Juice"
             className="relative rounded-3xl shadow-2xl rotate-3 hover:rotate-0 transition-transform duration-500 object-cover w-full max-w-md aspect-square"
           />
         </div>
