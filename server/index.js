@@ -22,6 +22,9 @@ app.use(cors({
 }));
 app.use(express.json());
 
+// Serve static frontend files
+app.use(express.static(join(__dirname, '../dist')));
+
 // Database Connection Pool
 const pool = mysql.createPool({
     host: process.env.DB_HOST || 'localhost',
@@ -102,6 +105,11 @@ app.get('/api/test-db', async (req, res) => {
     } catch (error) {
         res.status(500).json({ status: 'error', message: error.message });
     }
+});
+
+// SPA catch-all route - serve index.html for all non-API routes
+app.get('*', (req, res) => {
+    res.sendFile(join(__dirname, '../dist/index.html'));
 });
 
 app.listen(PORT, () => {
