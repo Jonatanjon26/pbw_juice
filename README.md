@@ -3,7 +3,7 @@ This contains everything you need to run your app locally.
 
 ## Live Demo
 
-**Deployed on Railway:** [https://pbwjuice-production.up.railway.app/](https://pbw-juice-prod.up.railway.app)
+**Deployed on Railway:** https://pbwjuice-production.up.railway.app/
 
 ## Run Locally
 
